@@ -6,7 +6,7 @@ In this assignment, you will make LIRI. LIRI is like iPhone's SIRI. However, whi
 
 ### Before You Begin
 
-1. LIRI will display your latest tweets. As we do not want to display your personal account, or its keys, please make an alias account and add a few tweets to it!
+<!-- 1. LIRI will display your latest tweets. As we do not want to display your personal account, or its keys, please make an alias account and add a few tweets to it!
 
 2. Make a new GitHub repository called liri-node-app and clone it to your computer.
 
@@ -20,11 +20,11 @@ In this assignment, you will make LIRI. LIRI is like iPhone's SIRI. However, whi
 
      * You'll use Request to grab data from the [OMDB API](http://www.omdbapi.com).
 
-   * [DotEnv](https://www.npmjs.com/package/dotenv)
+   * [DotEnv](https://www.npmjs.com/package/dotenv) -->
      
 ### Instructions
 
-1. Navigate to the root of your project and run `npm init -y` &mdash; this will initialize a `package.json` file for your project. The `package.json` file is required for installing third party npm packages and saving their version numbers. If you fail to initialize a `package.json` file, it will be troublesome, and at times almost impossible for anyone else to run your code after cloning your project.
+<!-- 1. Navigate to the root of your project and run `npm init -y` &mdash; this will initialize a `package.json` file for your project. The `package.json` file is required for installing third party npm packages and saving their version numbers. If you fail to initialize a `package.json` file, it will be troublesome, and at times almost impossible for anyone else to run your code after cloning your project. -->
 
 2. Make a .gitignore file and add the following lines to it. This will tell git not to track these files, and thus they won't be committed to Github.
 
@@ -34,7 +34,7 @@ node_modules
 .env
 ```
 
-3. Make a JavaScript file named `keys.js`.
+<!-- 3. Make a JavaScript file named `keys.js`.
 
 * Inside keys.js your file will look like this:
 
@@ -69,7 +69,7 @@ TWITTER_CONSUMER_SECRET=your-twitter-consumer-secret
 TWITTER_ACCESS_TOKEN_KEY=your-access-token-key
 TWITTER_ACCESS_TOKEN_SECRET=your-twitter-access-token-secret
 
-```
+``` -->
 
 * This file will be used by the `dotenv` package to set what are known as environment variables to the global `process.env` object in node. These are values that are meant to be specific to the computer that node is running on, and since we are gitignoring this file, they won't be pushed to github &mdash; keeping our API key information private.
 
